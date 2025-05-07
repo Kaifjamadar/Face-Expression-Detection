@@ -1,7 +1,6 @@
 import cv2
 from deepface import DeepFace
-import tensorflow as tf
-from sympy.series.limitseq import dominant
+
 
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascade + 'C:/Users/Kaif_313/Downloads/haarcascade_frontalface_default.xml')
 
